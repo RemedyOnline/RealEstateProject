@@ -1,0 +1,282 @@
+* {
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(238, 238, 235);
+}
+
+nav {
+  background-color: #00000094;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 16pt;
+  padding-right: 16pt;
+  height: 60px;
+}
+
+.myLogo {
+  color: white;
+  font-size: 18px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 16px;
+  list-style-type: none;
+}
+
+.noFillButton {
+  outline: auto;
+  outline-width: 1ox;
+  border: none;
+  background: none;
+  padding: 12px;
+  color: white;
+  font: optional;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.joinButton {
+  padding: 12px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 14px;
+  outline: auto;
+  outline-color: white;
+  margin-left: 10px;
+}
+
+.buttonss {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+nav a {
+  color: azure;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.listItem {
+  list-style-type: none;
+}
+
+header {
+  background-image: url(/assets/images/whiteHouse.jpg);
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline {
+  margin-left: 56px;
+  margin-top: 200px;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 220px;
+  position: relative;
+  width: 70%;
+}
+
+.searchContent {
+  display: flex;
+  justify-content: center;
+  margin: 124px;
+  position: relative;
+  width: 70%;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  margin-top: 24px;
+  background-color: #00000094;
+  padding: 24px;
+  /* padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px; */
+}
+
+.inputField {
+  padding: 12px;
+  width: 400px;
+  /* border-radius: 8px; */
+  border-color: rgb(185, 9, 9);
+  border: none;
+}
+
+.searchButton {
+  padding: 12px;
+  background-color: red;
+  /* border-radius: 8px; */
+  color: white;
+  border: none;
+}
+
+.searchButton:hover {
+  background-color: rgb(207, 78, 4);
+}
+
+/* button {
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+} */
+
+.sectionHead {
+  margin-top: 50px;
+}
+
+.mainSection {
+  width: 75%;
+  margin: auto;
+}
+.mainContainer {
+  /* padding-left: 20%;
+    padding-right: 20%; */
+  margin: auto;
+  padding-top: 24px;
+}
+
+.mainContainer h2 {
+  text-align: center;
+  font-size: 48px;
+  /* margin-bottom: 50px; */
+}
+
+.mainContainer h3 {
+  font-size: 24px;
+  margin-bottom: 24px;
+  margin-top: 16px;
+}
+
+.mainContainer p {
+  margin-bottom: 24px;
+}
+
+.flexContainer {
+  display: flex;
+  margin-top: 36px;
+  gap: 36px;
+  width: 100%;
+}
+
+.textContainer {
+  /* padding: 16px; */
+  width: 50%;
+}
+
+.textContainer p {
+  line-height: 1.5;
+  color: gray;
+}
+
+.imageContainer img {
+  width: 100%;
+}
+
+.imageContainer {
+  width: 50%;
+}
+
+.homeCards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 36px;
+  grid-row-gap: 0px;
+}
+
+.homeCards img {
+  width: 100%;
+  height: 200px;
+  margin-top: 24px;
+}
+
+.amount {
+  font-size: 4px;
+  /* margin-bottom: 24px;
+    margin-top: 16px; */
+}
+
+.roomType {
+  font-size: 24px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+a {
+  color: red;
+  font-size: 20px;
+}
+
+.contactSection {
+    background-color: #00000094;
+    padding: 56px;
+    margin-top: 64px;
+    align-items: center;
+    color: white;
+  }
+
+.inputSection {
+  padding: 24px;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.inputField2 {
+  width: 250px;
+  padding: 12px;
+  border-color: rgb(185, 9, 9);
+  border: none;
+  align-items: center;
+  justify-content: right;
+}
+
+.myFooter {
+    background-color: #00000094;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 56px;
+    justify-content: space-between;
+    gap: 36px;
+    margin-top: 36px;
+}
+
+.leftContent {
+    width: 30%;
+    border-right: 1px solid rgb(219, 219, 219);
+            height: 200px;
+}
+
+.rightContent {
+    width: 70%;
+    display: flex;
+}
+
+.columnItems {
+    width: 25%;
+}
+
+.columnItems li {
+    color: rgb(219, 219, 219);
+}
